@@ -214,7 +214,7 @@ header{
   }
 
     .about-me__container--perfil{
-      width: 80%;
+      width: 300px;
       border-radius: 50%;
       border: 1px solid var(--secundary-color);
       box-shadow: 0 3px 10px var(--secundary-color);
