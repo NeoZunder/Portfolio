@@ -214,7 +214,7 @@ header{
   }
 
     .about-me__container--perfil{
-      width: 300px;
+      width: ;
       border-radius: 50%;
       border: 1px solid var(--secundary-color);
       box-shadow: 0 3px 10px var(--secundary-color);
@@ -302,7 +302,6 @@ header{
     transition: .5s;
   }
 
-
 @media (min-width: 320px) and (max-width: 480px) {
   
   .banner__text--paragraph{
@@ -315,6 +314,9 @@ header{
 
   .about-me__container{
     flex-direction: column;
+  }
+  .about-me__container--perfil{
+    width: 200px;
   }
   .about-me__container--text{
     font-size: 1em;
@@ -347,6 +349,10 @@ header{
   .about-me__container{
     flex-direction: column;
   }
+  .about-me__container--perfil{
+    width: 320px;
+  }
+
   .about-me__container--text{
     font-size: 1.7em;
   }
@@ -378,7 +384,7 @@ header{
     flex-direction: column;
   }
   .about-me__container--perfil{
-    width: 60%;
+    width: 400px;
   }
 
   .about-me__container--text{
@@ -414,7 +420,7 @@ header{
   }
 
   .about-me__container--perfil{
-    width: 70%;
+    width: 450px;
   }
 
   .about-me__container--text{
