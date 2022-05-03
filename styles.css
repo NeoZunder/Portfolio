@@ -107,8 +107,6 @@ header{
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  transform:translatez(0);
-  -webkit-transform:translatez(0);
   clip-path: circle(70.4% at 50% 29%);
   
   filter: grayscale(100%);
