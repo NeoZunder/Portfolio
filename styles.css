@@ -38,6 +38,10 @@
 
 }
 
+/*Sacar el cuadro azul al seleccionar los iconos en cel*/
+a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
 
 /*  NAVEGADOR REDES SOCIALES */
 
@@ -58,7 +62,7 @@
   .social-contact__links{
     margin: 10px 0;
     flex-basis: 1;
-    
+      
     display: flex;
     justify-content: center;
     align-items: center;
